@@ -1,5 +1,5 @@
-import { HackOpts } from "../types/hackFormat";
-import { RandomHacks } from "../randomhacks";
+import { HackOpts } from "../hackTypes/hackFormat";
+import { RandomHacks } from "../hackClass";
 import { goals } from "mineflayer-pathfinder";
 const { Goal } = goals;
 import { Vec3 } from "vec3";

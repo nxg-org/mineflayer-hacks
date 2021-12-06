@@ -1,5 +1,5 @@
-import { HackOpts } from "../types/hackFormat";
-import { RandomHacks } from "../randomhacks";
+import { HackOpts } from "../hackTypes/hackFormat";
+import { RandomHacks } from "../hackClass";
 
 export default class noFall implements HackOpts<"move">  {
     public name = "nofall"

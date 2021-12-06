@@ -1,7 +1,7 @@
 import { Entity } from "prismarine-entity";
-import { RandomHacks } from "../randomhacks";
-import { HackOpts } from "../types/hackFormat";
-import { uuid } from "../util";
+import { RandomHacks } from "../hackClass";
+import { HackOpts } from "../hackTypes/hackFormat";
+import { uuid } from "../hackUtil";
 
 export default class hasteHack implements HackOpts<"physicsTick"> {
     public name = "haste";

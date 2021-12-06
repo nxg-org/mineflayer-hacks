@@ -1,6 +1,6 @@
 import { Entity } from "prismarine-entity";
-import { RandomHacks } from "../randomhacks";
-import { HackOpts } from "../types/hackFormat";
+import { RandomHacks } from "../hackClass";
+import { HackOpts } from "../hackTypes/hackFormat";
 
 export default class reactiveAntiKnockback implements HackOpts<"move"> {
     public name = "kbcancel";

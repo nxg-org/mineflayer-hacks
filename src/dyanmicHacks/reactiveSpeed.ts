@@ -1,5 +1,5 @@
-import { HackOpts } from "../types/hackFormat";
-import { RandomHacks } from "../randomhacks";
+import { HackOpts } from "../hackTypes/hackFormat";
+import { RandomHacks } from "../hackClass";
 import { Vec3 } from "vec3";
 
 export default class reactiveSpeed implements HackOpts<"move"> {

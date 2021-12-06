@@ -1,5 +1,5 @@
-import { RandomHacks } from "../randomhacks";
-import { HackOpts } from "../types/hackFormat";
+import { RandomHacks } from "../hackClass";
+import { HackOpts } from "../hackTypes/hackFormat";
 
 
 export default class noSlow implements HackOpts<"move"> {

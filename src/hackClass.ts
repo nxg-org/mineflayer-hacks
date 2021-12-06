@@ -3,7 +3,7 @@ import { goals } from "mineflayer-pathfinder";
 import { Entity } from "prismarine-entity";
 import { stringify } from "querystring";
 import { Vec3 } from "vec3";
-import { uuid } from "./util";
+import { uuid } from "./hackUtil";
 
 /**
  * TODO:  add everything. Lol.
@@ -15,8 +15,8 @@ import { uuid } from "./util";
 
 import fs from "fs";
 import path from "path";
-import { HackOpts } from "./types/hackFormat";
-import { StaticHackOpts } from "./types/staticHackFormat";
+import { HackOpts } from "./hackTypes/hackFormat";
+import { StaticHackOpts } from "./hackTypes/staticHackFormat";
 
 
 interface jesusConfig {

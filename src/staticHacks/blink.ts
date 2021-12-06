@@ -1,6 +1,6 @@
 import { goals } from "mineflayer-pathfinder";
-import { RandomHacks } from "../randomhacks";
-import { StaticHackOpts } from "../types/staticHackFormat";
+import { RandomHacks } from "../hackClass";
+import { StaticHackOpts } from "../hackTypes/staticHackFormat";
 import { promisify } from "util";
 import { Vec3 } from "vec3";
 

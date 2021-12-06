@@ -1,7 +1,7 @@
 import { Block } from "prismarine-block";
-import { RandomHacks } from "../randomhacks";
-import { HackOpts } from "../types/hackFormat";
-import { StaticHackOpts } from "../types/staticHackFormat";
+import { RandomHacks } from "../hackClass";
+import { HackOpts } from "../hackTypes/hackFormat";
+import { StaticHackOpts } from "../hackTypes/staticHackFormat";
 
 export default class stepHack implements HackOpts<"move"> {
     public name = "step";

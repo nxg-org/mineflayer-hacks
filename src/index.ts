@@ -1,5 +1,5 @@
 import { Bot } from "mineflayer";
-import { RandomHacks } from "./randomhacks"
+import { RandomHacks } from "./hackClass"
 import utilPlugin from "@nxg-org/mineflayer-util-plugin"
 
 

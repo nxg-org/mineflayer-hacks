@@ -1,5 +1,5 @@
 import { BotEvents } from "mineflayer";
-import { RandomHacks } from "../randomhacks";
+import { RandomHacks } from "../hackClass";
 
 
 export interface StaticHackOpts {
