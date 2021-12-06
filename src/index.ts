@@ -23,5 +23,6 @@ declare module "prismarine-entity" {
 
 
 export default function plugin(bot: Bot) {
+    if (!bot.hasPlugin(utilPlugin)) bot.loadPlugin(utilPlugin)
     bot.randomHacks = new RandomHacks(bot)
 }
